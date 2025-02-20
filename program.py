@@ -36,10 +36,19 @@ def combine_keyword(files, output_file, keyword):
             else:
                 print(f"Warning: {file_path} does not exist and will be skipped.")
 
+def find_sys(dir):
+    for root, dirs, files in os.walk(dir):
+        for file in files:
+            file_name, _ = os.path.splitext(file)
+            if file_name.lower() == 'system':
+                return os.path.join(root, file)
+    return False
+
 evtxPath = "./EvtxECmd/EvtxeCmd/EvtxECmd.exe"
 pecmdPath = "./PECmd/PECmd.exe"
 appcompatPath = "./AppCompatCacheParser/AppCompatCacheParser.exe"
 csvPath = "./Output/"
+evidencePath = './Evidence'
 
 parser = argparse.ArgumentParser(description="Process and combine forensic artifacts.")
 
@@ -48,6 +57,9 @@ parser.add_argument('-pf', type=str, help='Path to a single .pf file')
 parser.add_argument('-sf', type=str, help='Path to a single SYSTEM file')
 parser.add_argument('-ed', type=str, help='Path to a Windows Log directory')
 parser.add_argument('-pd', type=str, help='Path to a Prefetch directory')
+
+parser.add_argument('-d', type=str, help='Path to directory to process')
+parser.add_argument('-df', type=str, default=csvPath, help='Path to dump output CSV')
 
 parser.add_argument('--files', nargs='+', type=str, help='List of CSV files to combine')
 parser.add_argument('--keyword', type=str, help='Keyword to filter rows in the combined CSV')
@@ -58,7 +70,18 @@ parser.add_argument('--comb', type=str, default="combined_output.csv", help='Fil
 
 args = parser.parse_args()
 
-# Process individual files or directories
+if args.d:
+    evtx_cmd = [evtxPath, '-d', args.d, '--csv', args.df, '--csvf', args.evtx]
+    pec_cmd = [pecmdPath, '-d', args.d, '--csv', args.df, '--csvf', args.pecmd]
+    
+    sys_dir = find_sys(args.d)
+    if sys_dir != False:
+        sys_cmd = [appcompatPath, '-f', sys_dir, '--csv', args.df, '--csvf', args.appcompat]
+        subprocess.run(evtx_cmd)
+        subprocess.run(pec_cmd)
+        subprocess.run(sys_cmd)
+    else:
+        print("ERROR : SYSTEM file not found")
 if args.ef:
     command = [evtxPath, '-f', args.ef, '--csv', csvPath, '--csvf', args.evtx]
     subprocess.run(command)
