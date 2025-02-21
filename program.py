@@ -98,3 +98,5 @@ if args.dir:
     else:
         combine_files(args.dir, args.comb, args.df)
         print("SYSTEM : Successfully combined files")
+elif args.keyword and not args.dir:
+    print("ERROR : Provide a directory containing CSV files to combine.")
