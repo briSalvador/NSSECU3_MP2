@@ -3,28 +3,30 @@ import os
 import argparse
 import pandas as pd
 
-def combine_files(files, output_file):
-    with open(output_file, 'w', newline='', encoding='utf-8', errors='replace') as outfile:
+def combine_files(files, output_file, dir):
+    output_path = os.path.join(dir, output_file)
+
+    with open(output_path, 'w', newline='', encoding='utf-8', errors='replace') as outfile:
         first_file = True
         for file in files:
-            file_path = os.path.join(csvPath, file)
-            if os.path.exists(file_path):
-                df = pd.read_csv(file_path)
+            if os.path.exists(file):
+                df = pd.read_csv(file)
                 df.insert(0, 'SourceCSV', file)
                 if not first_file:
                     outfile.write('\n')
                 df.to_csv(outfile, index=False, mode='a', encoding='utf-8', errors='replace')
                 first_file = False
             else:
-                print(f"Warning: {file_path} does not exist and will be skipped.")
+                print(f"Warning: {file} does not exist and will be skipped.")
 
-def combine_keyword(files, output_file, keyword):
-    with open(output_file, 'w', newline='') as outfile:
+def combine_keyword(files, output_file, keyword, dir):
+    output_path = os.path.join(dir, output_file)
+
+    with open(output_path, 'w', newline='') as outfile:
         first_file = True
         for file in files:
-            file_path = os.path.join(csvPath, file)
-            if os.path.exists(file_path):
-                df = pd.read_csv(file_path)
+            if os.path.exists(file):
+                df = pd.read_csv(file)
                 mask = df.apply(lambda row: row.astype(str).str.contains(keyword, case=False, na=False).any(), axis=1)
                 filtered_df = df[mask]
                 if not filtered_df.empty:
@@ -34,7 +36,7 @@ def combine_keyword(files, output_file, keyword):
                     filtered_df.to_csv(outfile, index=False)
                     first_file = False
             else:
-                print(f"Warning: {file_path} does not exist and will be skipped.")
+                print(f"Warning: {file} does not exist and will be skipped.")
 
 def find_sys(dir):
     for root, dirs, files in os.walk(dir):
@@ -47,22 +49,19 @@ def find_sys(dir):
 evtxPath = "./EvtxECmd/EvtxeCmd/EvtxECmd.exe"
 pecmdPath = "./PECmd/PECmd.exe"
 appcompatPath = "./AppCompatCacheParser/AppCompatCacheParser.exe"
-csvPath = "./Output/"
 evidencePath = './Evidence'
 
 parser = argparse.ArgumentParser(description="Process and combine forensic artifacts.")
 
-parser.add_argument('-ef', type=str, help='Path to a single .evtx file')
-parser.add_argument('-pf', type=str, help='Path to a single .pf file')
-parser.add_argument('-sf', type=str, help='Path to a single SYSTEM file')
-parser.add_argument('-ed', type=str, help='Path to a Windows Log directory')
-parser.add_argument('-pd', type=str, help='Path to a Prefetch directory')
-
+# DIR Commands
 parser.add_argument('-d', type=str, help='Path to directory to process')
-parser.add_argument('-df', type=str, default=csvPath, help='Path to dump output CSV')
+parser.add_argument('-df', type=str, default="./", help='Path to dump output CSV')
 
+# Tool Commands
 parser.add_argument('--files', nargs='+', type=str, help='List of CSV files to combine')
 parser.add_argument('--keyword', type=str, help='Keyword to filter rows in the combined CSV')
+
+# Filename
 parser.add_argument('--evtx', type=str, default="evtx.csv", help='Filename of EvtxECmd output CSV')
 parser.add_argument('--pecmd', type=str, default="pecmd.csv", help='Filename of PECmd output CSV')
 parser.add_argument('--appcompat', type=str, default="appcompat.csv", help='Filename of AppCompatCacheParser output CSV')
@@ -82,26 +81,17 @@ if args.d:
         subprocess.run(sys_cmd)
     else:
         print("ERROR : SYSTEM file not found")
-if args.ef:
-    command = [evtxPath, '-f', args.ef, '--csv', csvPath, '--csvf', args.evtx]
-    subprocess.run(command)
-if args.pf:
-    command = [pecmdPath, '-f', args.pf, '--csv', csvPath, '--csvf', args.pecmd]
-    subprocess.run(command)
-if args.sf:
-    command = [appcompatPath, '-f', args.sf, '--csv', csvPath, '--csvf', args.appcompat]
-    subprocess.run(command)
-if args.ed:
-    command = [evtxPath, '-d', args.ed, '--csv', csvPath, '--csvf', args.evtx]
-    subprocess.run(command)
-if args.pd:
-    command = [pecmdPath, '-d', args.pd, '--csv', csvPath, '--csvf', args.pecmd]
-    subprocess.run(command)
+
+if args.keyword and not args.files:
+    print("ERROR : Provide files to combine with keyword")
+elif args.comb and not args.files:
+    print("ERROR : Provide files to combine")
 
 # Combine CSV files
 if args.files:
-    output_path = os.path.join(csvPath, args.comb)
     if args.keyword:
-        combine_keyword(args.files, output_path, args.keyword)
+        combine_keyword(args.files, args.comb, args.keyword, args.df)
+        print("SYSTEM : Keyword successfully filtered")
     else:
-        combine_files(args.files, output_path)
+        combine_files(args.files, args.comb, args.df)
+        print("SYSTEM : Successfully combined files")
