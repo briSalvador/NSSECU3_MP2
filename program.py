@@ -98,5 +98,3 @@ if args.dir:
     else:
         combine_files(args.dir, args.comb, args.df)
         print("SYSTEM : Successfully combined files")
-else:
-    print("ERROR : Provide a directory containing CSV files to combine.")
