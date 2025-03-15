@@ -1,0 +1,211 @@
+ControlSet,CacheEntryPosition,Path,LastModifiedTimeUTC,Executed,Duplicate,SourceFile
+2,83,C:\Windows\Microsoft.NET\Framework64\v2.0.50727\mscorsvw.exe,2009-06-10 20:39:58+00:00,Yes,True,win7_files\SYSTEM
+1,83,C:\Windows\Microsoft.NET\Framework64\v2.0.50727\mscorsvw.exe,2009-06-10 20:39:58+00:00,Yes,False,win7_files\SYSTEM
+1,79,C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorsvw.exe,2009-06-10 21:23:09+00:00,Yes,False,win7_files\SYSTEM
+2,79,C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorsvw.exe,2009-06-10 21:23:09+00:00,Yes,True,win7_files\SYSTEM
+2,80,C:\Windows\SysWOW64\DllHost.exe,2009-07-14 01:14:18+00:00,Yes,True,win7_files\SYSTEM
+1,80,C:\Windows\SysWOW64\DllHost.exe,2009-07-14 01:14:18+00:00,Yes,False,win7_files\SYSTEM
+2,91,C:\Windows\SysWOW64\rundll32.exe,2009-07-14 01:14:31+00:00,Yes,True,win7_files\SYSTEM
+1,91,C:\Windows\SysWOW64\rundll32.exe,2009-07-14 01:14:31+00:00,Yes,False,win7_files\SYSTEM
+2,93,C:\Program Files (x86)\Windows Mail\WinMail.exe,2009-07-14 01:14:45+00:00,Yes,True,win7_files\SYSTEM
+1,93,C:\Program Files (x86)\Windows Mail\WinMail.exe,2009-07-14 01:14:45+00:00,Yes,False,win7_files\SYSTEM
+1,18,C:\Windows\SysWOW64\EhStorShell.dll,2009-07-14 01:15:14+00:00,No,False,win7_files\SYSTEM
+2,18,C:\Windows\SysWOW64\EhStorShell.dll,2009-07-14 01:15:14+00:00,No,True,win7_files\SYSTEM
+2,12,C:\Windows\system32\calc.exe,2009-07-14 01:38:57+00:00,No,True,win7_files\SYSTEM
+1,12,C:\Windows\system32\calc.exe,2009-07-14 01:38:57+00:00,No,False,win7_files\SYSTEM
+2,20,C:\Windows\system32\DllHost.exe,2009-07-14 01:39:06+00:00,Yes,True,win7_files\SYSTEM
+2,77,C:\Windows\System32\dinotify.exe,2009-07-14 01:39:06+00:00,Yes,True,win7_files\SYSTEM
+1,20,C:\Windows\system32\DllHost.exe,2009-07-14 01:39:06+00:00,Yes,False,win7_files\SYSTEM
+1,77,C:\Windows\System32\dinotify.exe,2009-07-14 01:39:06+00:00,Yes,False,win7_files\SYSTEM
+1,13,C:\Windows\system32\displayswitch.exe,2009-07-14 01:39:06+00:00,No,False,win7_files\SYSTEM
+2,13,C:\Windows\system32\displayswitch.exe,2009-07-14 01:39:06+00:00,No,True,win7_files\SYSTEM
+2,78,C:\Windows\system32\DrvInst.exe,2009-07-14 01:39:07+00:00,Yes,True,win7_files\SYSTEM
+1,78,C:\Windows\system32\DrvInst.exe,2009-07-14 01:39:07+00:00,Yes,False,win7_files\SYSTEM
+1,50,C:\Windows\system32\Dwm.exe,2009-07-14 01:39:08+00:00,Yes,False,win7_files\SYSTEM
+2,50,C:\Windows\system32\Dwm.exe,2009-07-14 01:39:08+00:00,Yes,True,win7_files\SYSTEM
+1,88,C:\Windows\System32\ie4uinit.exe,2009-07-14 01:39:12+00:00,Yes,False,win7_files\SYSTEM
+2,88,C:\Windows\System32\ie4uinit.exe,2009-07-14 01:39:12+00:00,Yes,True,win7_files\SYSTEM
+2,62,C:\Windows\system32\ipconfig.exe,2009-07-14 01:39:13+00:00,Yes,True,win7_files\SYSTEM
+1,62,C:\Windows\system32\ipconfig.exe,2009-07-14 01:39:13+00:00,Yes,False,win7_files\SYSTEM
+1,57,C:\Windows\system32\lsass.exe,2009-07-14 01:39:16+00:00,Yes,False,win7_files\SYSTEM
+2,57,C:\Windows\system32\lsass.exe,2009-07-14 01:39:16+00:00,Yes,True,win7_files\SYSTEM
+1,81,C:\Windows\system32\magnify.exe,2009-07-14 01:39:16+00:00,No,False,win7_files\SYSTEM
+2,81,C:\Windows\system32\magnify.exe,2009-07-14 01:39:16+00:00,No,True,win7_files\SYSTEM
+1,87,C:\Windows\System32\mctadmin.exe,2009-07-14 01:39:17+00:00,Yes,False,win7_files\SYSTEM
+2,87,C:\Windows\System32\mctadmin.exe,2009-07-14 01:39:17+00:00,Yes,True,win7_files\SYSTEM
+1,17,C:\Windows\system32\mspaint.exe,2009-07-14 01:39:24+00:00,No,False,win7_files\SYSTEM
+2,17,C:\Windows\system32\mspaint.exe,2009-07-14 01:39:24+00:00,No,True,win7_files\SYSTEM
+1,104,C:\Windows\System32\netsh.exe,2009-07-14 01:39:25+00:00,Yes,False,win7_files\SYSTEM
+2,104,C:\Windows\System32\netsh.exe,2009-07-14 01:39:25+00:00,Yes,True,win7_files\SYSTEM
+1,98,C:\Windows\system32\oobe\oobeldr.exe,2009-07-14 01:39:26+00:00,Yes,False,win7_files\SYSTEM
+2,98,C:\Windows\system32\oobe\oobeldr.exe,2009-07-14 01:39:26+00:00,Yes,True,win7_files\SYSTEM
+1,29,C:\Windows\System32\regsvr32.exe,2009-07-14 01:39:29+00:00,Yes,False,win7_files\SYSTEM
+2,29,C:\Windows\System32\regsvr32.exe,2009-07-14 01:39:29+00:00,Yes,True,win7_files\SYSTEM
+2,8,C:\Windows\System32\rundll32.exe,2009-07-14 01:39:31+00:00,Yes,True,win7_files\SYSTEM
+1,8,C:\Windows\System32\rundll32.exe,2009-07-14 01:39:31+00:00,Yes,False,win7_files\SYSTEM
+2,76,C:\Windows\system32\sc.exe,2009-07-14 01:39:35+00:00,Yes,True,win7_files\SYSTEM
+1,76,C:\Windows\system32\sc.exe,2009-07-14 01:39:35+00:00,Yes,False,win7_files\SYSTEM
+2,58,C:\Windows\system32\services.exe,2009-07-14 01:39:37+00:00,Yes,True,win7_files\SYSTEM
+2,42,C:\Windows\system32\SearchIndexer.exe,2009-07-14 01:39:37+00:00,Yes,True,win7_files\SYSTEM
+2,39,C:\Windows\system32\SearchProtocolHost.exe,2009-07-14 01:39:37+00:00,Yes,True,win7_files\SYSTEM
+1,42,C:\Windows\system32\SearchIndexer.exe,2009-07-14 01:39:37+00:00,Yes,False,win7_files\SYSTEM
+1,40,C:\Windows\system32\SearchFilterHost.exe,2009-07-14 01:39:37+00:00,Yes,False,win7_files\SYSTEM
+1,39,C:\Windows\system32\SearchProtocolHost.exe,2009-07-14 01:39:37+00:00,Yes,False,win7_files\SYSTEM
+2,40,C:\Windows\system32\SearchFilterHost.exe,2009-07-14 01:39:37+00:00,Yes,True,win7_files\SYSTEM
+1,58,C:\Windows\system32\services.exe,2009-07-14 01:39:37+00:00,Yes,False,win7_files\SYSTEM
+2,19,C:\Windows\system32\SnippingTool.exe,2009-07-14 01:39:41+00:00,No,True,win7_files\SYSTEM
+1,19,C:\Windows\system32\SnippingTool.exe,2009-07-14 01:39:41+00:00,No,False,win7_files\SYSTEM
+1,11,C:\Windows\system32\StikyNot.exe,2009-07-14 01:39:46+00:00,No,False,win7_files\SYSTEM
+2,11,C:\Windows\system32\StikyNot.exe,2009-07-14 01:39:46+00:00,No,True,win7_files\SYSTEM
+2,35,C:\Windows\System32\svchost.exe,2009-07-14 01:39:46+00:00,Yes,True,win7_files\SYSTEM
+1,35,C:\Windows\System32\svchost.exe,2009-07-14 01:39:46+00:00,Yes,False,win7_files\SYSTEM
+1,89,C:\Windows\System32\unregmp2.exe,2009-07-14 01:39:48+00:00,Yes,False,win7_files\SYSTEM
+2,89,C:\Windows\System32\unregmp2.exe,2009-07-14 01:39:48+00:00,Yes,True,win7_files\SYSTEM
+2,90,C:\Program Files\Windows Mail\WinMail.exe,2009-07-14 01:39:53+00:00,Yes,True,win7_files\SYSTEM
+1,90,C:\Program Files\Windows Mail\WinMail.exe,2009-07-14 01:39:53+00:00,Yes,False,win7_files\SYSTEM
+2,67,C:\Windows\system32\wbem\WMIADAP.EXE,2009-07-14 01:39:55+00:00,Yes,True,win7_files\SYSTEM
+1,67,C:\Windows\system32\wbem\WMIADAP.EXE,2009-07-14 01:39:55+00:00,Yes,False,win7_files\SYSTEM
+2,16,C:\Windows\system32\xpsrchvw.exe,2009-07-14 01:39:59+00:00,No,True,win7_files\SYSTEM
+1,16,C:\Windows\system32\xpsrchvw.exe,2009-07-14 01:39:59+00:00,No,False,win7_files\SYSTEM
+1,49,C:\Windows\System32\EhStorShell.dll,2009-07-14 01:40:36+00:00,No,False,win7_files\SYSTEM
+2,49,C:\Windows\System32\EhStorShell.dll,2009-07-14 01:40:36+00:00,No,True,win7_files\SYSTEM
+2,3,C:\Windows\System32\sendmail.dll,2009-07-14 01:41:53+00:00,No,True,win7_files\SYSTEM
+1,61,C:\Windows\System32\PhotoMetadataHandler.dll,2009-07-14 01:41:53+00:00,No,False,win7_files\SYSTEM
+1,3,C:\Windows\System32\sendmail.dll,2009-07-14 01:41:53+00:00,No,False,win7_files\SYSTEM
+2,61,C:\Windows\System32\PhotoMetadataHandler.dll,2009-07-14 01:41:53+00:00,No,True,win7_files\SYSTEM
+1,85,C:\Program Files\Common Files\System\wab32.dll,2009-07-14 01:41:56+00:00,No,False,win7_files\SYSTEM
+2,85,C:\Program Files\Common Files\System\wab32.dll,2009-07-14 01:41:56+00:00,No,True,win7_files\SYSTEM
+1,43,C:\Windows\System32\prnfldr.dll,2010-11-21 03:23:48+00:00,No,False,win7_files\SYSTEM
+2,43,C:\Windows\System32\prnfldr.dll,2010-11-21 03:23:48+00:00,No,True,win7_files\SYSTEM
+2,66,C:\Windows\System32\DeviceCenter.dll,2010-11-21 03:23:51+00:00,No,True,win7_files\SYSTEM
+1,47,C:\Windows\System32\ntshrui.dll,2010-11-21 03:23:51+00:00,No,False,win7_files\SYSTEM
+1,66,C:\Windows\System32\DeviceCenter.dll,2010-11-21 03:23:51+00:00,No,False,win7_files\SYSTEM
+2,47,C:\Windows\System32\ntshrui.dll,2010-11-21 03:23:51+00:00,No,True,win7_files\SYSTEM
+2,97,C:\Windows\system32\oobe\msoobe.exe,2010-11-21 03:23:52+00:00,Yes,True,win7_files\SYSTEM
+1,97,C:\Windows\system32\oobe\msoobe.exe,2010-11-21 03:23:52+00:00,Yes,False,win7_files\SYSTEM
+1,56,C:\Windows\system32\lsm.exe,2010-11-21 03:23:53+00:00,Yes,False,win7_files\SYSTEM
+2,56,C:\Windows\system32\lsm.exe,2010-11-21 03:23:53+00:00,Yes,True,win7_files\SYSTEM
+2,46,C:\Windows\System32\shdocvw.dll,2010-11-21 03:23:54+00:00,No,True,win7_files\SYSTEM
+1,46,C:\Windows\System32\shdocvw.dll,2010-11-21 03:23:54+00:00,No,False,win7_files\SYSTEM
+2,101,C:\Windows\system32\vssvc.exe,2010-11-21 03:23:55+00:00,Yes,True,win7_files\SYSTEM
+1,63,C:\Windows\System32\cmd.exe,2010-11-21 03:23:55+00:00,Yes,False,win7_files\SYSTEM
+1,101,C:\Windows\system32\vssvc.exe,2010-11-21 03:23:55+00:00,Yes,False,win7_files\SYSTEM
+2,63,C:\Windows\System32\cmd.exe,2010-11-21 03:23:55+00:00,Yes,True,win7_files\SYSTEM
+2,53,C:\Windows\system32\sppsvc.exe,2010-11-21 03:23:56+00:00,Yes,True,win7_files\SYSTEM
+2,14,C:\Windows\system32\mstsc.exe,2010-11-21 03:23:56+00:00,No,True,win7_files\SYSTEM
+1,53,C:\Windows\system32\sppsvc.exe,2010-11-21 03:23:56+00:00,Yes,False,win7_files\SYSTEM
+1,14,C:\Windows\system32\mstsc.exe,2010-11-21 03:23:56+00:00,No,False,win7_files\SYSTEM
+1,5,C:\Windows\System32\zipfldr.dll,2010-11-21 03:24:01+00:00,No,False,win7_files\SYSTEM
+2,5,C:\Windows\System32\zipfldr.dll,2010-11-21 03:24:01+00:00,No,True,win7_files\SYSTEM
+1,24,C:\Windows\SysWOW64\ntshrui.dll,2010-11-21 03:24:01+00:00,No,False,win7_files\SYSTEM
+2,24,C:\Windows\SysWOW64\ntshrui.dll,2010-11-21 03:24:01+00:00,No,True,win7_files\SYSTEM
+1,44,C:\Windows\System32\networkexplorer.dll,2010-11-21 03:24:02+00:00,No,False,win7_files\SYSTEM
+2,44,C:\Windows\System32\networkexplorer.dll,2010-11-21 03:24:02+00:00,No,True,win7_files\SYSTEM
+1,96,C:\Windows\servicing\TrustedInstaller.exe,2010-11-21 03:24:03+00:00,Yes,False,win7_files\SYSTEM
+2,96,C:\Windows\servicing\TrustedInstaller.exe,2010-11-21 03:24:03+00:00,Yes,True,win7_files\SYSTEM
+2,31,C:\Windows\SysWOW64\shdocvw.dll,2010-11-21 03:24:07+00:00,No,True,win7_files\SYSTEM
+1,31,C:\Windows\SysWOW64\shdocvw.dll,2010-11-21 03:24:07+00:00,No,False,win7_files\SYSTEM
+2,33,C:\Windows\system32\consent.exe,2010-11-21 03:24:08+00:00,Yes,True,win7_files\SYSTEM
+2,54,C:\Windows\system32\taskhost.exe,2010-11-21 03:24:08+00:00,Yes,True,win7_files\SYSTEM
+1,33,C:\Windows\system32\consent.exe,2010-11-21 03:24:08+00:00,Yes,False,win7_files\SYSTEM
+1,54,C:\Windows\system32\taskhost.exe,2010-11-21 03:24:08+00:00,Yes,False,win7_files\SYSTEM
+2,23,C:\Windows\SysWOW64\zipfldr.dll,2010-11-21 03:24:09+00:00,No,True,win7_files\SYSTEM
+1,23,C:\Windows\SysWOW64\zipfldr.dll,2010-11-21 03:24:09+00:00,No,False,win7_files\SYSTEM
+1,0,C:\Windows\system32\LogonUI.exe,2010-11-21 03:24:09+00:00,Yes,False,win7_files\SYSTEM
+2,0,C:\Windows\system32\LogonUI.exe,2010-11-21 03:24:09+00:00,Yes,True,win7_files\SYSTEM
+1,10,C:\Windows\Explorer.EXE,2010-11-21 03:24:11+00:00,Yes,False,win7_files\SYSTEM
+2,10,C:\Windows\Explorer.EXE,2010-11-21 03:24:11+00:00,Yes,True,win7_files\SYSTEM
+2,30,C:\Windows\system32\wbem\wmiprvse.exe,2010-11-21 03:24:15+00:00,Yes,True,win7_files\SYSTEM
+2,102,C:\Windows\WinSxS\amd64_netfx-clrgc_b03f5f7f11d50a3a_6.1.7601.17514_none_ad7a390fa131c970\clrgc.exe,2010-11-21 03:24:15+00:00,Yes,True,win7_files\SYSTEM
+1,30,C:\Windows\system32\wbem\wmiprvse.exe,2010-11-21 03:24:15+00:00,Yes,False,win7_files\SYSTEM
+1,102,C:\Windows\WinSxS\amd64_netfx-clrgc_b03f5f7f11d50a3a_6.1.7601.17514_none_ad7a390fa131c970\clrgc.exe,2010-11-21 03:24:15+00:00,Yes,False,win7_files\SYSTEM
+1,7,C:\Windows\System32\twext.dll,2010-11-21 03:24:16+00:00,No,False,win7_files\SYSTEM
+1,52,C:\Windows\system32\slui.exe,2010-11-21 03:24:16+00:00,Yes,False,win7_files\SYSTEM
+2,52,C:\Windows\system32\slui.exe,2010-11-21 03:24:16+00:00,Yes,True,win7_files\SYSTEM
+2,7,C:\Windows\System32\twext.dll,2010-11-21 03:24:16+00:00,No,True,win7_files\SYSTEM
+1,103,C:\Windows\bfsvc.exe,2010-11-21 03:24:22+00:00,Yes,False,win7_files\SYSTEM
+2,103,C:\Windows\bfsvc.exe,2010-11-21 03:24:22+00:00,Yes,True,win7_files\SYSTEM
+1,4,C:\Windows\System32\acppage.dll,2010-11-21 03:24:23+00:00,No,False,win7_files\SYSTEM
+2,4,C:\Windows\System32\acppage.dll,2010-11-21 03:24:23+00:00,No,True,win7_files\SYSTEM
+2,100,C:\Windows\system32\oobe\windeploy.exe,2010-11-21 03:24:24+00:00,Yes,True,win7_files\SYSTEM
+1,100,C:\Windows\system32\oobe\windeploy.exe,2010-11-21 03:24:24+00:00,Yes,False,win7_files\SYSTEM
+2,95,C:\Windows\system32\mcbuilder.exe,2010-11-21 03:24:26+00:00,Yes,True,win7_files\SYSTEM
+1,68,C:\Windows\system32\schtasks.exe,2010-11-21 03:24:26+00:00,Yes,False,win7_files\SYSTEM
+2,68,C:\Windows\system32\schtasks.exe,2010-11-21 03:24:26+00:00,Yes,True,win7_files\SYSTEM
+1,95,C:\Windows\system32\mcbuilder.exe,2010-11-21 03:24:26+00:00,Yes,False,win7_files\SYSTEM
+2,55,C:\Windows\System32\spoolsv.exe,2010-11-21 03:24:27+00:00,Yes,True,win7_files\SYSTEM
+1,55,C:\Windows\System32\spoolsv.exe,2010-11-21 03:24:27+00:00,Yes,False,win7_files\SYSTEM
+2,94,C:\Windows\system32\runonce.exe,2010-11-21 03:24:27+00:00,Yes,True,win7_files\SYSTEM
+1,94,C:\Windows\system32\runonce.exe,2010-11-21 03:24:27+00:00,Yes,False,win7_files\SYSTEM
+2,51,C:\Windows\system32\userinit.exe,2010-11-21 03:24:28+00:00,Yes,True,win7_files\SYSTEM
+1,51,C:\Windows\system32\userinit.exe,2010-11-21 03:24:28+00:00,Yes,False,win7_files\SYSTEM
+1,21,C:\Windows\SysWOW64\acppage.dll,2010-11-21 03:24:32+00:00,No,False,win7_files\SYSTEM
+2,25,C:\Windows\SysWOW64\twext.dll,2010-11-21 03:24:32+00:00,No,True,win7_files\SYSTEM
+1,25,C:\Windows\SysWOW64\twext.dll,2010-11-21 03:24:32+00:00,No,False,win7_files\SYSTEM
+2,21,C:\Windows\SysWOW64\acppage.dll,2010-11-21 03:24:32+00:00,No,True,win7_files\SYSTEM
+1,99,C:\Windows\system32\winsat.exe,2010-11-21 03:24:35+00:00,Yes,False,win7_files\SYSTEM
+2,99,C:\Windows\system32\winsat.exe,2010-11-21 03:24:35+00:00,Yes,True,win7_files\SYSTEM
+1,48,C:\Windows\System32\cscui.dll,2010-11-21 03:24:41+00:00,No,False,win7_files\SYSTEM
+2,48,C:\Windows\System32\cscui.dll,2010-11-21 03:24:41+00:00,No,True,win7_files\SYSTEM
+2,41,C:\Windows\System32\ieframe.dll,2010-11-21 03:24:42+00:00,No,True,win7_files\SYSTEM
+1,41,C:\Windows\System32\ieframe.dll,2010-11-21 03:24:42+00:00,No,False,win7_files\SYSTEM
+2,69,C:\Windows\System32\wsqmcons.exe,2010-11-21 03:24:49+00:00,Yes,True,win7_files\SYSTEM
+1,69,C:\Windows\System32\wsqmcons.exe,2010-11-21 03:24:49+00:00,Yes,False,win7_files\SYSTEM
+2,45,C:\Windows\System32\gameux.dll,2010-11-21 03:24:49+00:00,No,True,win7_files\SYSTEM
+1,45,C:\Windows\System32\gameux.dll,2010-11-21 03:24:49+00:00,No,False,win7_files\SYSTEM
+2,75,C:\Windows\System32\mobsync.exe,2010-11-21 03:24:51+00:00,Yes,True,win7_files\SYSTEM
+2,59,C:\Windows\System32\sbe.dll,2010-11-21 03:24:51+00:00,No,True,win7_files\SYSTEM
+2,86,C:\Program Files\Windows Sidebar\sidebar.exe,2010-11-21 03:24:51+00:00,Yes,True,win7_files\SYSTEM
+1,6,C:\Windows\System32\syncui.dll,2010-11-21 03:24:51+00:00,No,False,win7_files\SYSTEM
+1,59,C:\Windows\System32\sbe.dll,2010-11-21 03:24:51+00:00,No,False,win7_files\SYSTEM
+2,6,C:\Windows\System32\syncui.dll,2010-11-21 03:24:51+00:00,No,True,win7_files\SYSTEM
+1,86,C:\Program Files\Windows Sidebar\sidebar.exe,2010-11-21 03:24:51+00:00,Yes,False,win7_files\SYSTEM
+1,75,C:\Windows\System32\mobsync.exe,2010-11-21 03:24:51+00:00,Yes,False,win7_files\SYSTEM
+1,64,C:\Windows\System32\wpdshext.dll,2010-11-21 03:24:52+00:00,No,False,win7_files\SYSTEM
+2,60,C:\Windows\System32\mf.dll,2010-11-21 03:24:52+00:00,No,True,win7_files\SYSTEM
+1,60,C:\Windows\System32\mf.dll,2010-11-21 03:24:52+00:00,No,False,win7_files\SYSTEM
+2,64,C:\Windows\System32\wpdshext.dll,2010-11-21 03:24:52+00:00,No,True,win7_files\SYSTEM
+1,82,C:\Windows\System32\sdclt.exe,2010-11-21 03:25:06+00:00,Yes,False,win7_files\SYSTEM
+2,82,C:\Windows\System32\sdclt.exe,2010-11-21 03:25:06+00:00,Yes,True,win7_files\SYSTEM
+2,15,C:\Windows\system32\WFS.exe,2010-11-21 03:25:07+00:00,No,True,win7_files\SYSTEM
+1,15,C:\Windows\system32\WFS.exe,2010-11-21 03:25:07+00:00,No,False,win7_files\SYSTEM
+2,92,C:\Windows\SysWOW64\ie4uinit.exe,2010-11-21 03:25:08+00:00,Yes,True,win7_files\SYSTEM
+1,65,C:\Windows\System32\mssvp.dll,2010-11-21 03:25:08+00:00,No,False,win7_files\SYSTEM
+1,92,C:\Windows\SysWOW64\ie4uinit.exe,2010-11-21 03:25:08+00:00,Yes,False,win7_files\SYSTEM
+2,84,C:\Program Files (x86)\Internet Explorer\iexplore.exe,2010-11-21 03:25:08+00:00,No,True,win7_files\SYSTEM
+1,84,C:\Program Files (x86)\Internet Explorer\iexplore.exe,2010-11-21 03:25:08+00:00,No,False,win7_files\SYSTEM
+2,65,C:\Windows\System32\mssvp.dll,2010-11-21 03:25:08+00:00,No,True,win7_files\SYSTEM
+1,22,C:\Windows\SysWOW64\syncui.dll,2010-11-21 03:25:09+00:00,No,False,win7_files\SYSTEM
+2,22,C:\Windows\SysWOW64\syncui.dll,2010-11-21 03:25:09+00:00,No,True,win7_files\SYSTEM
+2,9,C:\Program Files (x86)\Windows Media Player\wmplayer.exe,2010-11-21 03:25:10+00:00,No,True,win7_files\SYSTEM
+1,9,C:\Program Files (x86)\Windows Media Player\wmplayer.exe,2010-11-21 03:25:10+00:00,No,False,win7_files\SYSTEM
+1,2,C:\Program Files\Mozilla Firefox\firefox.exe,2023-07-06 23:10:21+00:00,Yes,False,win7_files\SYSTEM
+1,36,C:\Program Files (x86)\Mozilla Maintenance Service\update\updater.exe,2023-07-06 23:10:21+00:00,Yes,False,win7_files\SYSTEM
+1,1,C:\Program Files\Mozilla Firefox\private_browsing.exe,2023-07-06 23:10:21+00:00,No,False,win7_files\SYSTEM
+1,38,C:\Program Files\Mozilla Firefox\updater.exe,2023-07-06 23:10:21+00:00,Yes,False,win7_files\SYSTEM
+1,26,C:\Program Files\Mozilla Firefox\default-browser-agent.exe,2023-07-06 23:10:21+00:00,Yes,False,win7_files\SYSTEM
+2,2,C:\Program Files\Mozilla Firefox\firefox.exe,2023-07-06 23:10:21+00:00,Yes,True,win7_files\SYSTEM
+2,1,C:\Program Files\Mozilla Firefox\private_browsing.exe,2023-07-06 23:10:21+00:00,No,True,win7_files\SYSTEM
+1,37,C:\Program Files (x86)\Mozilla Maintenance Service\maintenanceservice.exe,2023-07-06 23:10:21+00:00,Yes,False,win7_files\SYSTEM
+2,26,C:\Program Files\Mozilla Firefox\default-browser-agent.exe,2023-07-06 23:10:21+00:00,Yes,True,win7_files\SYSTEM
+2,27,C:\Program Files (x86)\Mozilla Maintenance Service\maintenanceservice_tmp.exe,2023-07-06 23:10:21+00:00,Yes,True,win7_files\SYSTEM
+2,28,C:\Program Files\Mozilla Firefox\maintenanceservice_installer.exe,2023-07-06 23:10:21+00:00,Yes,True,win7_files\SYSTEM
+2,36,C:\Program Files (x86)\Mozilla Maintenance Service\update\updater.exe,2023-07-06 23:10:21+00:00,Yes,True,win7_files\SYSTEM
+1,28,C:\Program Files\Mozilla Firefox\maintenanceservice_installer.exe,2023-07-06 23:10:21+00:00,Yes,False,win7_files\SYSTEM
+1,27,C:\Program Files (x86)\Mozilla Maintenance Service\maintenanceservice_tmp.exe,2023-07-06 23:10:21+00:00,Yes,False,win7_files\SYSTEM
+2,37,C:\Program Files (x86)\Mozilla Maintenance Service\maintenanceservice.exe,2023-07-06 23:10:21+00:00,Yes,True,win7_files\SYSTEM
+2,38,C:\Program Files\Mozilla Firefox\updater.exe,2023-07-06 23:10:21+00:00,Yes,True,win7_files\SYSTEM
+2,32,C:\Users\student\AppData\Local\Temp\7zS0B4F2282\setup.exe,2023-07-06 23:10:22+00:00,Yes,True,win7_files\SYSTEM
+1,32,C:\Users\student\AppData\Local\Temp\7zS0B4F2282\setup.exe,2023-07-06 23:10:22+00:00,Yes,False,win7_files\SYSTEM
+1,74,C:\Users\student\Desktop\Victim-Target\7z2405-x64.exe,2025-01-19 21:21:00+00:00,No,False,win7_files\SYSTEM
+1,72,C:\Users\student\Desktop\Victim-Target\AccessData_FTK_Imager_4.7.1.exe,2025-01-19 21:21:00+00:00,No,False,win7_files\SYSTEM
+2,72,C:\Users\student\Desktop\Victim-Target\AccessData_FTK_Imager_4.7.1.exe,2025-01-19 21:21:00+00:00,No,True,win7_files\SYSTEM
+2,74,C:\Users\student\Desktop\Victim-Target\7z2405-x64.exe,2025-01-19 21:21:00+00:00,No,True,win7_files\SYSTEM
+1,71,C:\Users\student\Desktop\Victim-Target\python-3.7.0-amd64.exe,2025-01-19 21:22:00+00:00,No,False,win7_files\SYSTEM
+1,70,C:\Users\student\Desktop\Victim-Target\python-3.12.3-amd64.exe,2025-01-19 21:22:00+00:00,No,False,win7_files\SYSTEM
+2,70,C:\Users\student\Desktop\Victim-Target\python-3.12.3-amd64.exe,2025-01-19 21:22:00+00:00,No,True,win7_files\SYSTEM
+2,71,C:\Users\student\Desktop\Victim-Target\python-3.7.0-amd64.exe,2025-01-19 21:22:00+00:00,No,True,win7_files\SYSTEM
+1,73,C:\Users\student\Desktop\Victim-Target\winrar-x64-701.exe,2025-01-19 21:23:00+00:00,No,False,win7_files\SYSTEM
+2,73,C:\Users\student\Desktop\Victim-Target\winrar-x64-701.exe,2025-01-19 21:23:00+00:00,No,True,win7_files\SYSTEM
+2,34,C:\Users\student\Documents\Firefox Setup 115.0.1.exe,2025-01-21 13:01:26+00:00,Yes,True,win7_files\SYSTEM
+1,34,C:\Users\student\Documents\Firefox Setup 115.0.1.exe,2025-01-21 13:01:26+00:00,Yes,False,win7_files\SYSTEM
